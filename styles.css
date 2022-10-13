@@ -1,0 +1,299 @@
+
+/*
+.green-box{
+	background-color: green;
+}
+.grey-box{
+	background-color: grey;
+}
+.yellow-box{
+	background-color: yellow;
+}
+.blue-box{
+	background-color: blue;
+}
+.black-box{
+	background-color: black;
+}
+.light-green-box{
+	background-color: lightgreen;
+}
+.light-blue-box{
+	background-color: lightblue;
+}
+.white-box{
+	background-color: white;
+}
+.purple-box{
+	background-color: purple;
+}
+.brown-box{
+	background-color: brown;
+}
+.pink-box{
+	background-color: pink;
+}
+.orange-box{
+	background-color: orange;
+}
+
+@media screen and (max-width: 792px) {
+	.container {
+	  display:flex;
+	  flex-direction:column
+	  
+	}
+	
+*/
+.green-box{
+	background-color: #C5C9D3;
+	margin-top: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width:24%;
+	padding-bottom: 12px;
+
+}
+ 
+ .fa {
+	padding: 2px;
+	max-width: 7px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+  }
+li{
+	font-size: 15px;
+
+}
+  .spacing{
+	width: 30%;
+  }
+  .spacing-volunteer{
+	width: 35%;
+  }
+  .container{
+	max-width: 60%;
+	min-height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-size: 13px;
+	font-family: 'Times New Roman', Times, serif;
+	background-color:  #344e41;
+	border: 1px solid yellow;
+  }
+  .profile-title{
+	border: 1px solid black;
+	max-width: 17%;
+	text-align: center;
+	background-color: #C5C9D3;
+	padding: 10px;
+	border-radius: 20px;
+  }
+  .work-title{
+	border: 1px solid black;
+	max-width: 27%;
+	text-align: center;
+	background-color: #C5C9D3;
+	padding: 10px;
+	border-radius: 20px;
+  }
+  .volunteer-title{
+	border: 1px solid black;
+	max-width: 30%;
+	text-align: center;
+	background-color: #C5C9D3;
+	padding: 10px;
+	border-radius: 20px;
+  }
+  .title-box{
+	border: 1px solid black;
+	margin: 10px 0px;
+	padding:0px 0px 10px 0px;
+	text-align: center;
+	background-color: #e9ecef;
+	border-radius: 5px;
+
+  }
+  .profile-box{
+	border: 1px solid black;
+	margin: 10px 0px;
+	padding:0px 10px 10px 16px;
+	background-color: #e9ecef;
+	border-radius: 5px;
+
+  }
+  .work-box{
+	border: 1px solid black;
+	margin: 10px 0px;
+	padding:0px 11px 10px 10px;
+	background-color: #e9ecef;
+	border-radius: 5px;
+
+
+  }
+  .line-height{
+	line-height: 4vh;
+	font-size: 14;
+
+  }
+  .volunteer-box{
+	border: 1px solid black;
+	margin: 10px 0px;
+	padding:0px 0px 10px 10px;
+	background-color: #e9ecef;
+	border-radius: 5px;
+
+  }
+  .Education{
+	padding-bottom: 2px;
+  }
+  .Languages{
+	padding-bottom: 2px;
+  }
+  .Skills{
+	padding-bottom: 2px;
+  }
+  .Competencies{
+	padding-bottom: 0px;
+  }
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  
+  .fa-mobile-phone  {
+	background: white;
+	color: black;
+	max-width: 20px;
+	margin: 5px 2.5px;
+  }
+  
+ 
+  
+  .fa-linkedin {
+	background: #55ACEE;
+	color: white;
+	max-width: 20px;
+	margin: 5px 2.5px;
+  }
+  
+  #img-profile{
+	border: 1px solid black;
+	border-radius: 20px;
+	max-width: 70%;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-bottom: 2px;
+	margin-top: 10px;
+  }
+.contact{
+	
+	padding: 0px 0px;
+	display: flex;
+	 flex-direction: column;   
+}
+  
+	 #gmail-icon{
+   max-width: 18px;
+   padding: 0px 0px;
+	margin: 5px 2.5px;
+  }
+  #location-icon{
+	max-width: 20px;
+	padding: 0px 0px;
+	 margin: 5px 2.5px;
+   }
+  @media screen and (max-width: 792px) {
+	
+	.container{
+	max-width: 100%;
+	}
+	.profile-box{
+		font-size: 7px;
+		width:105%;
+		padding:0px 1px 0px 5px;
+		
+	  }
+	  .work-box{
+		width:105%;
+		padding:0px 12px 10px 5px;
+		
+	}
+	  .volunteer-box{
+		width:105%;
+		padding:0px 12px 10px 5px;
+	  }
+	  .title-box{
+		width:105%;
+		padding:0px 1px 5px 0px;
+		
+	  }
+	  .line-height{
+		font-size: 7px;
+		line-height: 1.7vh;
+	  }
+	  .green-box{
+		font-size: 7px;
+		width:30%;
+		text-align: start;
+		padding: 5px 5px 15px 5px;
+		margin-bottom: 10px;
+		margin-left: 5px;
+	  }
+	 
+	  .profile-title{
+		font-size: 8.5px;
+		max-width: 20%;
+		padding:3
+	  }
+	  .work-title{
+		font-size: 8.5px;
+		max-width: 42%;
+		padding:3
+	  }
+	  .volunteer-title{
+		font-size: 8.5px;
+		max-width: 49%;
+		padding:3
+	  }
+	  .title{
+		font-size: 12px;
+		
+	  }
+	  h4, h5{
+		font-size: 7.5px;
+		
+	  }
+	  .fa {
+		max-width: 8px;
+	}
+
+
+		#gmail-icon{
+			max-width: 8px;
+			
+		   }
+		 #location-icon{
+			max-width: 10px;
+			
+		   }
+		   #img-profile{
+			
+			max-width: 60%;
+
+		   }
+		   .spacing{
+			width: 42%;
+		  }
+		  .spacing-volunteer{
+			width: 42%;
+		  }
+		  li{
+			padding: 0px 5px 0px 1px;
+			font-size: 6.5px;
+			line-height: 1.6vh;
+		  }
+	}
